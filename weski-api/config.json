@@ -1,0 +1,9 @@
+{
+  "port": 3000,
+  "maxGroupSize": 10,
+  "services": {
+    "service1": {
+      "url": "https://gya7b1xubh.execute-api.eu-west-2.amazonaws.com/default/HotelsSimulator"
+    }
+  }
+}
