@@ -45,3 +45,9 @@ To preview the production build:
 pnpm preview
 ```
 
+
+
+### Notes
+To handle asynchronous requests from multiple services concurrently, `Promise.allSettled` should be used. Awaiting the [handleSSE](./weski-api/utils/handleSSE.ts) function is not sufficient for managing more than one service at a time.
+
+
